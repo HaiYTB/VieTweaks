@@ -1,0 +1,55 @@
+name: Submit a Translation
+description: Help translate VieTweaks into a new language or update an existing one.
+title: "[Translation]: <Language Name>"
+labels: ["translation", "help wanted"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us translate VieTweaks! Please provide the information below and attach your translated `strings_xx.xml` file.
+
+  - type: input
+    id: language
+    attributes:
+      label: Target Language
+      description: What language are you translating the app into? (e.g. Spanish, German, Japanese)
+      placeholder: Spanish
+    validations:
+      required: true
+
+  - type: input
+    id: language_code
+    attributes:
+      label: Language Code
+      description: What is the ISO language code? (e.g. es, de, ja, vi)
+      placeholder: es
+    validations:
+      required: true
+
+  - type: textarea
+    id: translated_file
+    attributes:
+      label: Translation Content (XML)
+      description: Paste the content of your translated strings.xml here, or drag and drop your XML file into the issue.
+      placeholder: |
+        ```xml
+        <resources>
+            <string name="nav_home">Inicio</string>
+            <!-- your translations here -->
+        </resources>
+        ```
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Translation Checklist
+      options:
+        - label: I used the latest `assets/strings_en.xml` as my base.
+          required: true
+        - label: I only translated the text inside the XML tags, not the `name` attribute itself.
+          required: true
+        - label: I have preserved special format characters like `%1$s` or `%d`.
+          required: true
