@@ -44,7 +44,7 @@
 	<string name="display_confirm_message">Nhấn Xác nhận trong %1$d giây để giữ %2$d x %3$d. Hết giờ sẽ tự động khôi phục.</string>
 	<string name="display_cutout">Vết cắt màn hình</string>
 	<string name="display_cutout_beta">Rủi ro - Beta (Chưa dùng được)</string>
-	<string name="display_lock_hz_desc">Lock HZ sẽ đặt peak, min, max, user và thermal limit về 1.</string>
+	<string name="display_lock_hz_desc">Lock HZ sẽ đặt peak, min về 1.</string>
 	<string name="display_custom_value">Giá trị tùy chỉnh</string>
 	<string name="action_cancel">Hủy</string>
 	<string name="action_confirm">Xác nhận</string>
@@ -54,7 +54,7 @@
 	<string name="display_max">Tối đa</string>
 	<string name="display_peak">Đỉnh</string>
 	<string name="display_set_refresh_rate">Đặt Tần số quét</string>
-	<string name="display_lock_max_refresh_rate">Khóa Tần số quét Tối đa</string>
+	<string name="display_lock_max_refresh_rate">Khóa Tần số quét Tối đa(Nguy hiểm - bootloop)</string>
 	<string name="info_res_physical">Độ phân giải (Gốc)</string>
 	<string name="info_res_override">Độ phân giải (Hiện tại)</string>
 	<string name="info_aspect_physical">Tỷ lệ khung hình (Gốc)</string>
