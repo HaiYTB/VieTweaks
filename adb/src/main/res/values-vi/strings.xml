@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- adb -->
+    <string name="notification_channel_service_status">Trạng thái khởi động dịch vụ</string>
+    <string name="notification_service_starting">Đang khởi động dịch vụ VieTweaks…</string>
+    <string name="notification_service_start_failed">Khởi động dịch vụ VieTweaks thất bại.</string>
+    <string name="notification_service_start_no_root">Không thể cấp quyền root.</string>
+    <string name="notification_working">Đang hoạt động…</string>
+    <string name="notification_channel_adb_pairing">Ghép nối Gỡ lỗi không dây</string>
+    <string name="notification_adb_pairing_input_paring_code">Nhập mã ghép nối</string>
+    <string name="notification_adb_pairing_searching_for_service_title">Đang tìm dịch vụ ghép nối</string>
+    <string name="notification_adb_pairing_service_found_title">Đã tìm thấy dịch vụ ghép nối</string>
+    <string name="notification_adb_pairing_stop_searching">Dừng tìm kiếm</string>
+    <string name="notification_adb_pairing_working_title">Đang ghép nối</string>
+    <string name="notification_adb_pairing_succeed_title">Ghép nối thành công</string>
+    <string name="notification_adb_pairing_succeed_text">Bạn có thể khởi động dịch vụ VieTweaks ngay bây giờ.</string>
+    <string name="notification_adb_pairing_failed_title">Ghép nối thất bại</string>
+    <string name="notification_adb_pairing_retry">Thử lại</string>
+    <string name="notification_adb_pairing_starter">Bắt đầu</string>
+    <string name="cannot_connect_port">Không thể kết nối tới dịch vụ Gỡ lỗi không dây.</string>
+    <string name="paring_code_is_wrong">Mã ghép nối không đúng.</string>
+    <string name="adb_error_key_store">Không thể tạo khóa cho Gỡ lỗi không dây.\nCó thể do cơ chế KeyStore trên thiết bị này bị lỗi.</string>
+    <string name="dialog_adb_pairing_pairing_code">Mã ghép nối</string>
+
+</resources>
