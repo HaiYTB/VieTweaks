@@ -44,7 +44,7 @@
 	<string name="display_confirm_message">Press Confirm in %1$d seconds to keep %2$d x %3$d. Otherwise it will reset.</string>
 	<string name="display_cutout">Display Cutout</string>
 	<string name="display_cutout_beta">Risk - Beta (Not functional yet)</string>
-	<string name="display_lock_hz_desc">Lock HZ will set peak, min, max, user, and thermal limits to 1.</string>
+	<string name="display_lock_hz_desc">Lock HZ will set peak, min to 1.</string>
 	<string name="display_custom_value">Custom value</string>
 	<string name="action_cancel">Cancel</string>
 	<string name="action_confirm">Confirm</string>
@@ -54,7 +54,7 @@
 	<string name="display_max">Max</string>
 	<string name="display_peak">Peak</string>
 	<string name="display_set_refresh_rate">Set Refresh Rate</string>
-	<string name="display_lock_max_refresh_rate">Lock Max Refresh Rate</string>
+	<string name="display_lock_max_refresh_rate">Lock Max Refresh Rate(Risk - bootloop)</string>
 	<string name="info_res_physical">Resolution (Physical)</string>
 	<string name="info_res_override">Resolution (Override)</string>
 	<string name="info_aspect_physical">Aspect Ratio (Physical)</string>
