@@ -1,7 +1,17 @@
 <resources>
+
+
+	<!-- Enter your name here if you are contributing a translation. -->
+    <string-array name="settings_translators_list">
+    <item></item>
+    <item></item>
+	</string-array>
+    
+    
 	<string name="app_name" translatable="false">VieTweaks</string>
 	<string name="license_no_key_title">VieTweaks – Get Your Key</string>
-	<string name="license_no_key_msg">You don\'t have a key yet.\nTap "Get Key", complete the task, then come back.</string>
+	<string name="license_no_key_msg">You don\'t have a key yet.
+Tap &quot;Get Key&quot;, complete the task, then come back.</string>
 	<string name="license_get_key">Get Key</string>
 	<string name="license_expired_title">VieTweaks – Key Expired</string>
 	<string name="license_expired_msg">Your key has expired (24h).\nTap "Renew Key", complete the task, then come back.</string>
@@ -25,6 +35,26 @@
 	<string name="theme_light">Light</string>
 	<string name="theme_dark">Dark</string>
 	<string name="lang_system">System default</string>
+	<string name="settings_tcp_off_success">✓ TCP debugging disabled</string>
+	<string name="settings_tcp_off_failed">✗ Failed to disable — check your ADB connection</string>
+	<string name="settings_send_logcat">Send logcat</string>
+	<string name="settings_send_logcat_desc">Export app logs</string>
+	<string name="settings_send_logcat_chooser">Send logcat</string>
+	<string name="settings_logcat_no_logs">No logs have been recorded.</string>
+	<string name="settings_logcat_error">Failed to retrieve logcat: %s</string>
+	<string name="status_ready">Ready</string>
+	<string name="status_connecting">Connecting...</string>
+	<string name="status_restarting">Restarting...</string>
+	<string name="status_restart_failed">Restart failed</string>
+	<string name="status_error">Error: %1$s</string>
+	<string name="status_stopped">VieTweaks has stopped</string>
+	<string name="status_stopping">Stopping...</string>
+	<string name="error_daemon_no_response">The new daemon is not responding</string>
+	<string name="update_check_failed">Failed to check for updates</string>
+	<string name="update_available">A new update is available: %1$s</string>
+	<string name="update_up_to_date">You\'re up to date</string>
+	<string name="update_checking">Checking for updates...</string>
+	<string name="update_no_download_link">No download link found for the update</string>
 	<!-- General Actions -->
 	<string name="action_reset">Reset</string>
 	<string name="action_apply">Apply</string>
@@ -48,6 +78,10 @@
 	<string name="display_custom_value">Custom value</string>
 	<string name="action_cancel">Cancel</string>
 	<string name="action_confirm">Confirm</string>
+	<string name="display_enter_value_hz">Enter value (Hz)</string>
+	<string name="unit_hz">Hz</string>
+	<string name="display_confirm_refresh_rate">Confirm Refresh Rate</string>
+	<string name="display_refresh_rate_countdown_desc">Keep this setting? It will automatically revert to 60 Hz in %1$d seconds.</string>
 	<!-- Screen Info Details -->
 	<string name="display_current">Current</string>
 	<string name="display_min">Min</string>
@@ -115,7 +149,7 @@
 	<string name="settings_tcp_turn_off">Turn off TCP debugging</string>
 	<string name="settings_start_on_boot">Start on Boot</string>
 	<string name="settings_start_on_boot_title">Auto-start after reboot</string>
-	<string name="settings_start_on_boot_desc">Auto-start via Adb/Shizuku/Root if possible (Android 11+ - Experimental)</string>
+	<string name="settings_start_on_boot_desc">Auto-start if possible (Android 11+ - Experimental)</string>
 	<string name="settings_personalization">Personalization</string>
 	<string name="settings_display_language">Display Language</string>
 	<string name="settings_theme">Theme</string>
@@ -136,6 +170,9 @@
 	<string name="settings_current_version">Current Version</string>
 	<string name="settings_app_desc">An app to optimize and customize Android systems via ADB, providing useful tweaks to improve device performance.</string>
 	<string name="settings_dev_team">Development Team</string>
+	<string name="settings_contribute_translation">Contribute translation</string>
+	<string name="settings_contribute_translation_desc">Help translate VieTweaks on GitHub</string>
+	<string name="settings_translators">Translators</string>
 	<!-- Main Screen -->
 	<string name="main_not_started">VieTweaks is not running</string>
 	<string name="main_not_started_desc">Tap here to start VieTweaks.</string>
@@ -178,4 +215,88 @@
 	<string name="warning_message">This application will make deep modifications to your display system.\n\nIncorrect configuration can result in a black screen, touch failure, or software damage.\n\nYou must accept all risks when using these features. We are not responsible for any damage caused to your device.</string>
 	<string name="warning_agree">I Agree &amp; Accept the Risks</string>
 	<string name="warning_exit">Exit</string>
+	<!-- ShellTool Screen -->
+	<string name="shell_exit_command_not_found">Command not found</string>
+	<string name="shell_exit_no_exec_permission">No execute permission</string>
+	<string name="shell_exit_stopped_ctrl_c">Stopped (Ctrl+C)</string>
+	<string name="shell_exit_stopped_killed">Stopped (killed)</string>
+	<string name="shell_exit_stopped">Stopped</string>
+	<string name="shell_stream_open_error">Could not open stream session</string>
+	<string name="shell_input_placeholder_value">Enter value...</string>
+	<string name="shell_input_placeholder_command">Enter command...</string>
+	<string name="shell_empty_state">Nothing here :3</string>
+	<string name="shell_running">Running</string>
+	<string name="action_stop">Stop</string>
+	<string name="action_send">Send</string>
+	<!-- Forum Screen-->
+	<string name="forums_developing">This feature is under development.</string>
+	<!-- ===== Starter.kt strings — values/strings.xml (English) ===== -->
+	<!-- Errors (StarterViewModel) -->
+	<string name="starter_error_invalid_tcp_port">Invalid TCP port (1 – 65535)</string>
+	<string name="starter_error_no_wifi">No Wi-Fi connection. Connect to Wi-Fi before starting via Wireless debugging.</string>
+	<string name="starter_error_cannot_enable_wireless_debugging">Could not enable Wireless debugging automatically. Go to Developer options > Wireless debugging and enable it manually.</string>
+	<string name="starter_error_no_root">Device has no root access or it was denied.</string>
+	<string name="starter_error_shizuku_exit">Shizuku error (exit %1$d): %2$s</string>
+	<string name="starter_error_shizuku_start_failed">Could not start via Shizuku: %1$s</string>
+	<string name="starter_error_adb_port_not_found">Could not find an ADB port.</string>
+	<string name="starter_error_key_store">Key store error: %1$s</string>
+	<string name="starter_error_mdns_timeout">Could not find an ADB port via mDNS (timed out). Check that Wireless debugging is enabled in Developer options, and that your phone and computer (if used) are on the same Wi-Fi network.</string>
+	<string name="starter_error_auth_timeout">Confirmation timed out. Please accept the ADB request on your device and try again.</string>
+	<string name="starter_error_connect_failed">Could not connect — try again later.</string>
+	<string name="starter_error_pairing_required">Pairing is required before connecting.</string>
+	<string name="starter_error_generic">Error: %1$s</string>
+	<string name="starter_error_start_timeout">Could not start: timed out (%1$ds).</string>
+	<!-- Connect hints (StarterViewModel) -->
+	<string name="starter_hint_waiting_wifi">Waiting for Wi-Fi…</string>
+	<string name="starter_hint_enabling_wireless_debugging">Enabling Wireless debugging…</string>
+	<string name="starter_hint_enabling_fixed_tcp">Enabling fixed TCP debugging…</string>
+	<!-- StarterScreen -->
+	<string name="starter_dialog_error_title">Could not start!</string>
+	<string name="starter_dialog_ok">OK</string>
+	<string name="starter_overlay_starting">Starting…</string>
+	<string name="starter_toast_shizuku_not_running">Shizuku is not running. Please open the Shizuku app first.</string>
+	<string name="starter_toast_shizuku_permission_failed">Could not request Shizuku permission.</string>
+	<string name="starter_toast_go_to_dev_options">Go to Developer options → Wireless debugging</string>
+	<!-- TcpDebuggingCard -->
+	<string name="starter_tcp_title">TCP Debugging</string>
+	<string name="starter_tcp_description">Best when the device already exposes a network port via cable or localhost.</string>
+	<string name="starter_tcp_detected_port">Detected port: %1$d</string>
+	<string name="starter_tcp_custom_port">Custom port</string>
+	<string name="starter_tcp_saved_port">Saved port: %1$d</string>
+	<string name="starter_tcp_connect_port">Connect to port %1$d</string>
+	<string name="starter_tcp_input_port_label">Enter port</string>
+	<string name="starter_tcp_input_port_placeholder">e.g. 5555</string>
+	<string name="starter_tcp_go_back">Go back</string>
+	<string name="starter_tcp_connect_now">Connect now</string>
+	<!-- WirelessDebuggingCard -->
+	<string name="starter_wireless_title">Wireless Debugging</string>
+	<string name="starter_wireless_description">Connect via Wireless Debugging (Android 11+). Must be enabled in Developer options.</string>
+	<string name="starter_wireless_notif_permission_needed">Notification permission is required to show pairing info.</string>
+	<string name="starter_wireless_settings">Settings</string>
+	<string name="starter_wireless_allow">Allow</string>
+	<string name="starter_wireless_dev_options">Dev options</string>
+	<string name="starter_wireless_start">Start</string>
+	<!-- ShizukuCard -->
+	<string name="starter_shizuku_badge_not_running">Shizuku is not running.</string>
+	<string name="starter_shizuku_badge_not_granted">Permission not granted to the app.</string>
+	<string name="starter_shizuku_badge_active">Shizuku is running and permission is granted.</string>
+	<string name="starter_shizuku_description">Start via Shizuku, no root or computer needed. Requires the Shizuku app to be running.</string>
+	<string name="starter_shizuku_grant_permission">Grant Shizuku permission</string>
+	<string name="starter_shizuku_start">Start</string>
+	<!-- RootCard -->
+	<string name="starter_root_title">Root Access</string>
+	<string name="starter_root_description">Start with root access.</string>
+	<string name="starter_root_available">Root available</string>
+	<string name="starter_root_unavailable">No root access</string>
+	<string name="starter_root_checking">Checking root…</string>
+	<string name="starter_root_start">Start</string>
+	<!-- ComputerCard -->
+	<string name="starter_computer_title">Via computer</string>
+	<string name="starter_computer_description">Run the command over a USB cable connection with adb.</string>
+	<string name="starter_computer_hide_command">Hide command</string>
+	<string name="starter_computer_view_command">View command</string>
+	<string name="starter_computer_copy">Copy</string>
+	<string name="starter_computer_copied_toast">Command copied!</string>
+	<string name="starter_computer_share_command">Share command</string>
+	<string name="starter_computer_share_chooser_title">Share command</string>
 </resources>
