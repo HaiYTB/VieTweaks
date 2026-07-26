@@ -1,7 +1,6 @@
 # VieTweaks
 
 ## About
-
 This repository is the issue tracker for VieTweaks and stores its localization files.
 
 * **Issues:** Report bugs or suggest new features on the [Issues page](https://github.com/HaiYTB/VieTweaks/issues).
@@ -13,7 +12,14 @@ This repository is the issue tracker for VieTweaks and stores its localization f
 * Keep placeholders such as `%1$s`, `%d`, `%f` unchanged.
 * Keep XML formatting valid.
 * Submit one Pull Request per language.
+* If you contribute a translation, add your name to the `settings_translators_list` array in the `strings.xml` file(s) you edited, so you get credit in the app's Settings screen. Add a new `<item>` — do not remove or overwrite existing names already in the list.
+
+```xml
+<string-array name="settings_translators_list">
+    <item>ExistingTranslator</item>
+    <item>YourNameHere</item>
+</string-array>
+```
 
 ---
-
 Thank you for your contributions and support!
