@@ -1,318 +1,319 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<!-- Điền tên của bạn vào đây nếu đóng góp dịch. -->
-	<string-array name="settings_translators_list">
+
+	<!-- Enter your name here if you are contributing a translation. -->
+    <string-array name="settings_translators_list">
     <item></item>
     <item></item>
 	</string-array>
-
-
-	<string name="license_no_key_title">VieTweaks – Lấy Key</string>
-	<string name="license_no_key_msg">Bạn chưa có key.\nNhấn "Lấy Key", hoàn thành task rồi quay lại.</string>
-	<string name="license_get_key">Lấy Key</string>
-	<string name="license_expired_title">VieTweaks – Key Hết Hạn</string>
-	<string name="license_expired_msg">Key của bạn đã hết hạn (24h).\nNhấn "Gia Hạn", hoàn thành task rồi quay lại.</string>
-	<string name="license_renew_key">Gia Hạn</string>
-	<string name="license_denied_title">VieTweaks – Truy Cập Bị Từ Chối</string>
-	<string name="license_denied_msg">Xác thực key thất bại.\nNhấn "Lấy Key" để lấy key mới.</string>
-	<string name="license_network_title">VieTweaks – Lỗi Kết Nối</string>
-	<string name="license_network_msg">Không thể kết nối đến server.\nVui lòng kiểm tra kết nối mạng và thử lại.</string>
-	<string name="license_retry">Thử Lại</string>
-	<string name="license_verifying">Đang xác thực…</string>
-	<string name="license_exit">Thoát</string>
+    
+    
+	<string name="app_name" translatable="false">VieTweaks</string>
+	<string name="license_no_key_title">VieTweaks – Get Your Key</string>
+	<string name="license_no_key_msg">You don\'t have a key yet.
+Tap &quot;Get Key&quot;, complete the task, then come back.</string>
+	<string name="license_get_key">Get Key</string>
+	<string name="license_expired_title">VieTweaks – Key Expired</string>
+	<string name="license_expired_msg">Your key has expired (24h).\nTap "Renew Key", complete the task, then come back.</string>
+	<string name="license_renew_key">Renew Key</string>
+	<string name="license_denied_title">VieTweaks – Access Denied</string>
+	<string name="license_denied_msg">Key verification failed.\nTap "Get Key" to get a new one.</string>
+	<string name="license_network_title">VieTweaks – Connection Error</string>
+	<string name="license_network_msg">Unable to connect to the server.\nPlease check your internet connection and try again.</string>
+	<string name="license_retry">Retry</string>
+	<string name="license_verifying">Verifying…</string>
+	<string name="license_exit">Exit</string>
 	<!-- Navigation -->
 	<string name="nav_tweaks">VieTweaks</string>
-	<string name="nav_forums">Cộng đồng</string>
-	<string name="nav_profile">Hồ sơ</string>
-	<string name="nav_starter">Khởi động</string>
-	<string name="nav_settings">Cài đặt</string>
+	<string name="nav_forums">Forums</string>
+	<string name="nav_profile">Profile</string>
+	<string name="nav_starter">Starter</string>
+	<string name="nav_settings">Settings</string>
 	<string name="nav_shell_tools">Shell Tools</string>
 	<!-- Settings -->
-	<string name="theme_system">Hệ thống</string>
-	<string name="theme_light">Sáng</string>
-	<string name="theme_dark">Tối</string>
-	<string name="lang_system">Theo hệ thống</string>
-	<string name="settings_send_logcat">Gửi logcat</string>
-	<string name="settings_send_logcat_desc">Xuất log app</string>
-	<string name="settings_send_logcat_chooser">Gửi logcat</string>
-	<string name="settings_logcat_no_logs">Không có log nào được ghi nhận.</string>
-	<string name="settings_logcat_error">Không thể lấy logcat: %s</string>
+	<string name="theme_system">System</string>
+	<string name="theme_light">Light</string>
+	<string name="theme_dark">Dark</string>
+	<string name="lang_system">System default</string>
+	<string name="settings_tcp_off_success">✓ TCP debugging disabled</string>
+	<string name="settings_tcp_off_failed">✗ Failed to disable — check your ADB connection</string>
+	<string name="settings_send_logcat">Send logcat</string>
+	<string name="settings_send_logcat_desc">Export app logs</string>
+	<string name="settings_send_logcat_chooser">Send logcat</string>
+	<string name="settings_logcat_no_logs">No logs have been recorded.</string>
+	<string name="settings_logcat_error">Failed to retrieve logcat: %s</string>
 	<string name="status_ready">Ready</string>
 	<string name="status_connecting">Connecting...</string>
-	<string name="status_restarting">Đang khởi động lại...</string>
-	<string name="status_restart_failed">Khởi động lại thất bại</string>
-	<string name="status_error">Lỗi: %1$s</string>
-	<string name="status_stopped">VieTweaks đã dừng</string>
-	<string name="status_stopping">Đang dừng...</string>
-	<string name="error_daemon_no_response">Daemon mới không phản hồi</string>
-	<string name="update_check_failed">Không kiểm tra được cập nhật</string>
-	<string name="update_available">Có bản cập nhật mới: %1$s</string>
-	<string name="update_up_to_date">Bạn đang ở bản mới nhất</string>
-	<string name="update_checking">Đang kiểm tra...</string>
-	<string name="update_no_download_link">Không tìm thấy liên kết tải bản cập nhật</string>
+	<string name="status_restarting">Restarting...</string>
+	<string name="status_restart_failed">Restart failed</string>
+	<string name="status_error">Error: %1$s</string>
+	<string name="status_stopped">VieTweaks has stopped</string>
+	<string name="status_stopping">Stopping...</string>
+	<string name="error_daemon_no_response">The new daemon is not responding</string>
+	<string name="update_check_failed">Failed to check for updates</string>
+	<string name="update_available">A new update is available: %1$s</string>
+	<string name="update_up_to_date">You\'re up to date</string>
+	<string name="update_checking">Checking for updates...</string>
+	<string name="update_no_download_link">No download link found for the update</string>
 	<!-- General Actions -->
-	<string name="action_reset">Khôi phục</string>
-	<string name="action_apply">Áp dụng</string>
-	<string name="action_save">Lưu</string>
-	<string name="action_logout">Đăng xuất</string>
+	<string name="action_reset">Reset</string>
+	<string name="action_apply">Apply</string>
+	<string name="action_save">Save</string>
+	<string name="action_logout">Logout</string>
 	<!-- Display Settings -->
-	<string name="display_custom_resolution">Độ phân giải tùy chỉnh</string>
-	<string name="display_custom_density">Mật độ điểm ảnh tùy chỉnh</string>
-	<string name="display_target_density">Mật độ điểm ảnh đích (dpi)</string>
-	<string name="display_density_note">Lưu ý: Không nên đặt Mật độ quá cao hoặc quá thấp.</string>
-	<string name="display_scale">Tỷ lệ</string>
-	<string name="display_width">Chiều rộng (px)</string>
-	<string name="display_height">Chiều cao (px)</string>
-	<string name="display_auto_alignment">Căn chỉnh tự động</string>
-	<string name="display_auto_alignment_desc">Chiều rộng và Chiều cao sẽ tự căn theo tỉ lệ gốc %1$d:%2$d</string>
-	<string name="display_confirm_resolution">Xác nhận Độ phân giải</string>
-	<string name="display_confirm_message">Nhấn Xác nhận trong %1$d giây để giữ %2$d x %3$d. Hết giờ sẽ tự động khôi phục.</string>
-	<string name="display_cutout">Vết cắt màn hình</string>
-	<string name="display_cutout_beta">Rủi ro - Beta (Chưa dùng được)</string>
-	<string name="display_lock_hz_desc">Lock HZ sẽ đặt peak, min về 1.</string>
-	<string name="display_custom_value">Giá trị tùy chỉnh</string>
-	<string name="action_cancel">Hủy</string>
-	<string name="action_confirm">Xác nhận</string>
-	<string name="display_enter_value_hz">Nhập giá trị (Hz)</string>
+	<string name="display_custom_resolution">Custom Resolution</string>
+	<string name="display_custom_density">Custom Density</string>
+	<string name="display_target_density">Target Density (dpi)</string>
+	<string name="display_density_note">Note: don\'t set the Density too high or too low.</string>
+	<string name="display_scale">Scale</string>
+	<string name="display_width">Width (px)</string>
+	<string name="display_height">Height (px)</string>
+	<string name="display_auto_alignment">Auto Alignment</string>
+	<string name="display_auto_alignment_desc">Width and Height will align to physical ratio %1$d:%2$d</string>
+	<string name="display_confirm_resolution">Confirm Resolution</string>
+	<string name="display_confirm_message">Press Confirm in %1$d seconds to keep %2$d x %3$d. Otherwise it will reset.</string>
+	<string name="display_cutout">Display Cutout</string>
+	<string name="display_cutout_beta">Risk - Beta (Not functional yet)</string>
+	<string name="display_lock_hz_desc">Lock HZ will set peak, min to 1.</string>
+	<string name="display_custom_value">Custom value</string>
+	<string name="action_cancel">Cancel</string>
+	<string name="action_confirm">Confirm</string>
+	<string name="display_enter_value_hz">Enter value (Hz)</string>
 	<string name="unit_hz">Hz</string>
-	<string name="display_confirm_refresh_rate">Xác nhận tần số quét</string>
-	<string name="display_refresh_rate_countdown_desc">Giữ thiết lập này? Sẽ tự động khôi phục về 60Hz sau %1$d giây.</string>
+	<string name="display_confirm_refresh_rate">Confirm Refresh Rate</string>
+	<string name="display_refresh_rate_countdown_desc">Keep this setting? It will automatically revert to 60 Hz in %1$d seconds.</string>
 	<!-- Screen Info Details -->
-	<string name="display_current">Hiện tại</string>
-	<string name="display_min">Tối thiểu</string>
-	<string name="display_max">Tối đa</string>
-	<string name="display_peak">Đỉnh</string>
-	<string name="display_set_refresh_rate">Đặt Tần số quét</string>
-	<string name="display_lock_max_refresh_rate">Khóa Tần số quét Tối đa(Nguy hiểm - bootloop)</string>
-	<string name="info_res_physical">Độ phân giải (Gốc)</string>
-	<string name="info_res_override">Độ phân giải (Hiện tại)</string>
-	<string name="info_aspect_physical">Tỷ lệ khung hình (Gốc)</string>
-	<string name="info_aspect_override">Tỷ lệ khung hình (Hiện tại)</string>
-	<string name="info_screen_size">Kích thước màn hình</string>
-	<string name="info_refresh_rate">Tần số quét</string>
-	<string name="info_min_refresh">Tần số quét Tối thiểu</string>
-	<string name="info_max_refresh">Tần số quét Tối đa</string>
-	<string name="info_peak_refresh">Tần số quét Đỉnh</string>
-	<string name="info_refresh_range">Dải tần số quét</string>
-	<string name="info_supported_refresh">Các tần số quét hỗ trợ</string>
-	<string name="info_density_physical">Mật độ điểm ảnh (Gốc)</string>
-	<string name="info_density_override">Mật độ điểm ảnh (Hiện tại)</string>
-	<string name="info_dpi_physical">DPI (Gốc)</string>
-	<string name="info_dpi_x">DPI Trục X</string>
-	<string name="info_dpi_y">DPI Trục Y</string>
-	<string name="info_smallest_width_physical">Chiều rộng nhỏ nhất (Gốc)</string>
-	<string name="info_smallest_width_override">Chiều rộng nhỏ nhất (Hiện tại)</string>
+	<string name="display_current">Current</string>
+	<string name="display_min">Min</string>
+	<string name="display_max">Max</string>
+	<string name="display_peak">Peak</string>
+	<string name="display_set_refresh_rate">Set Refresh Rate</string>
+	<string name="display_lock_max_refresh_rate">Lock Max Refresh Rate(Risk - bootloop)</string>
+	<string name="info_res_physical">Resolution (Physical)</string>
+	<string name="info_res_override">Resolution (Override)</string>
+	<string name="info_aspect_physical">Aspect Ratio (Physical)</string>
+	<string name="info_aspect_override">Aspect Ratio (Override)</string>
+	<string name="info_screen_size">Screen Size</string>
+	<string name="info_refresh_rate">Refresh Rate</string>
+	<string name="info_min_refresh">Min Refresh Rate</string>
+	<string name="info_max_refresh">Max Refresh Rate</string>
+	<string name="info_peak_refresh">Peak Refresh Rate</string>
+	<string name="info_refresh_range">Refresh Range</string>
+	<string name="info_supported_refresh">Supported Refresh Rates</string>
+	<string name="info_density_physical">Density (Physical)</string>
+	<string name="info_density_override">Density (Override)</string>
+	<string name="info_dpi_physical">DPI (Physical)</string>
+	<string name="info_dpi_x">DPI X</string>
+	<string name="info_dpi_y">DPI Y</string>
+	<string name="info_smallest_width_physical">Smallest Width (Physical)</string>
+	<string name="info_smallest_width_override">Smallest Width (Override)</string>
 	<string name="info_ppi">PPI</string>
-	<string name="info_long_press">Độ trễ Nhấn giữ</string>
-	<string name="info_multi_press">Độ trễ Nhấn nhiều lần</string>
-	<string name="info_key_press">Độ trễ Nhấn phím</string>
-	<string name="info_double_tap">Độ trễ Chạm hai lần</string>
+	<string name="info_long_press">Long Press Timeout</string>
+	<string name="info_multi_press">Multi Press Timeout</string>
+	<string name="info_key_press">Key Press Timeout</string>
+	<string name="info_double_tap">Double Tap Timeout</string>
 	<!-- Profile & Auth -->
-	<string name="auth_signin_failed">Google sign-in thất bại (%s)</string>
-	<string name="auth_login_failed">Đăng nhập thất bại</string>
-	<string name="auth_not_logged_in">Chưa đăng nhập</string>
-	<string name="auth_login_desc">Đăng nhập để trải nghiệm đầy đủ tính năng tinh chỉnh hệ thống.</string>
-	<string name="auth_connecting">Đang kết nối...</string>
-	<string name="auth_continue_google">Tiếp tục với Google</string>
-	<string name="profile_display_name">Tên hiển thị</string>
-	<string name="profile_no_name">Chưa đặt tên</string>
-	<string name="profile_uid_copied">Đã sao chép UID!</string>
-	<string name="dialog_confirm_logout">Xác nhận đăng xuất</string>
-	<string name="dialog_logout_desc">Bạn có chắc chắn muốn đăng xuất khỏi tài khoản này không?</string>
-	<string name="profile_license_expired">Đã hết hạn sử dụng</string>
-	<string name="profile_license_remaining">Thời gian sử dụng còn lại</string>
+	<string name="auth_signin_failed">Google sign-in failed (%s)</string>
+	<string name="auth_login_failed">Login failed</string>
+	<string name="auth_not_logged_in">Not logged in</string>
+	<string name="auth_login_desc">Log in to experience all system tweaking features.</string>
+	<string name="auth_connecting">Connecting...</string>
+	<string name="auth_continue_google">Continue with Google</string>
+	<string name="profile_display_name">Display Name</string>
+	<string name="profile_no_name">No name set</string>
+	<string name="profile_uid_copied">UID copied!</string>
+	<string name="dialog_confirm_logout">Confirm Logout</string>
+	<string name="dialog_logout_desc">Are you sure you want to log out of this account?</string>
+	<string name="profile_license_expired">License Expired</string>
+	<string name="profile_license_remaining">Remaining License Time</string>
 	<!-- Settings Screen -->
-	<string name="settings_title">Cài đặt</string>
-	<string name="settings_access_perm">Quyền truy cập</string>
+	<string name="settings_title">Settings</string>
+	<string name="settings_access_perm">Access Permissions</string>
 	<string name="settings_perm_root">Root (UID 0)</string>
-	<string name="settings_perm_root_desc">Đang chạy với đặc quyền cao nhất.</string>
+	<string name="settings_perm_root_desc">Running with highest privileges.</string>
 	<string name="settings_perm_shell">Shell (UID 2000)</string>
-	<string name="settings_perm_shell_desc">Đang chạy thông qua ADB.</string>
-	<string name="settings_perm_not_started">Chưa khởi chạy</string>
-	<string name="settings_perm_not_started_desc">VieTweaks chưa khởi động.</string>
-	<string name="settings_perm_unknown">Tiến trình không xác định.</string>
-	<string name="settings_action_restart">Khởi động lại</string>
-	<string name="settings_action_stop">Dừng</string>
-	<string name="settings_tcp_port">Cổng kết nối TCP</string>
-	<string name="settings_tcp_port_desc">Nhập cổng để kết nối nhanh từ màn hình Khởi động mà không cần quét tự động.</string>
-	<string name="settings_tcp_port_hint">Port (ví dụ: 5555)</string>
-	<string name="settings_tcp_saved">✓ Đã lưu cổng %s</string>
-	<string name="settings_action_save_port">Lưu cổng</string>
-	<string name="settings_action_delete_port">Xóa cổng</string>
-	<string name="settings_tcp_debugging_on">TCP debugging đang bật — cổng %d</string>
-	<string name="settings_tcp_turning_off">Đang tắt...</string>
-	<string name="settings_tcp_turn_off">Tắt TCP debugging</string>
-	<string name="settings_tcp_off_success">✓ Đã tắt TCP debugging</string>
-	<string name="settings_tcp_off_failed">✗ Không thể tắt — kiểm tra kết nối ADB</string>
-	<string name="settings_start_on_boot">Khởi động cùng thiết bị</string>
-	<string name="settings_start_on_boot_title">Tự khởi động sau khi mở máy</string>
-	<string name="settings_start_on_boot_desc">Tự khởi động lại nếu có thể (Android 11+ - Thử nghiệm)</string>
-	<string name="settings_personalization">Cá nhân hóa</string>
-	<string name="settings_display_language">Ngôn ngữ hiển thị</string>
-	<string name="settings_theme">Chủ đề</string>
-	<string name="settings_dynamic_color">Màu động (Dynamic Color)</string>
-	<string name="settings_dynamic_color_desc_s">Phối màu theo hình nền thiết bị</string>
-	<string name="settings_dynamic_color_desc_old">Yêu cầu Android 12 trở lên</string>
-	<string name="settings_support_feedback">Hỗ trợ &amp; Phản hồi</string>
-	<string name="settings_bug_report">Báo lỗi (Bug Report)</string>
-	<string name="settings_bug_report_desc">Gửi báo cáo lỗi trực tiếp</string>
-	<string name="settings_join_community">Tham gia cộng đồng</string>
-	<string name="settings_join_community_desc">Thảo luận và nhận hỗ trợ từ nhóm</string>
-	<string name="settings_app_update">Cập nhật ứng dụng</string>
-	<string name="settings_update_not_checked">Chưa kiểm tra cập nhật</string>
-	<string name="settings_update_available">Có phiên bản mới: v%s</string>
-	<string name="settings_action_check">Kiểm tra</string>
-	<string name="settings_action_install_now">Cài ngay</string>
-	<string name="settings_vietweaks_info">Thông tin VieTweaks</string>
-	<string name="settings_current_version">Phiên bản hiện tại</string>
-	<string name="settings_app_desc">Ứng dụng tối ưu và tùy chỉnh hệ thống Android thông qua ADB, cung cấp tweaks hữu ích cải thiện hiệu năng thiết bị.</string>
-	<string name="settings_dev_team">Đội ngũ phát triển</string>
-	<string name="settings_contribute_translation">Đóng góp dịch</string>
-	<string name="settings_contribute_translation_desc">Giúp dịch VieTweaks trên GitHub</string>
-	<string name="settings_translators">Người dịch</string>
-    
+	<string name="settings_perm_shell_desc">Running via ADB.</string>
+	<string name="settings_perm_not_started">Not Started</string>
+	<string name="settings_perm_not_started_desc">VieTweaks is not running.</string>
+	<string name="settings_perm_unknown">Unknown Process</string>
+	<string name="settings_action_restart">Restart</string>
+	<string name="settings_action_stop">Stop</string>
+	<string name="settings_tcp_port">TCP Connection Port</string>
+	<string name="settings_tcp_port_desc">Enter a port to connect quickly from the Startup screen without auto-scanning.</string>
+	<string name="settings_tcp_port_hint">Port (e.g. 5555)</string>
+	<string name="settings_tcp_saved">✓ Port %s saved</string>
+	<string name="settings_action_save_port">Save Port</string>
+	<string name="settings_action_delete_port">Delete Port</string>
+	<string name="settings_tcp_debugging_on">TCP debugging is ON — port %d</string>
+	<string name="settings_tcp_turning_off">Turning off...</string>
+	<string name="settings_tcp_turn_off">Turn off TCP debugging</string>
+	<string name="settings_start_on_boot">Start on Boot</string>
+	<string name="settings_start_on_boot_title">Auto-start after reboot</string>
+	<string name="settings_start_on_boot_desc">Auto-start if possible (Android 11+ - Experimental)</string>
+	<string name="settings_personalization">Personalization</string>
+	<string name="settings_display_language">Display Language</string>
+	<string name="settings_theme">Theme</string>
+	<string name="settings_dynamic_color">Dynamic Color</string>
+	<string name="settings_dynamic_color_desc_s">Matches device wallpaper colors</string>
+	<string name="settings_dynamic_color_desc_old">Requires Android 12 or above</string>
+	<string name="settings_support_feedback">Support &amp; Feedback</string>
+	<string name="settings_bug_report">Bug Report</string>
+	<string name="settings_bug_report_desc">Send a bug report directly</string>
+	<string name="settings_join_community">Join Community</string>
+	<string name="settings_join_community_desc">Discuss and get support from the group</string>
+	<string name="settings_app_update">App Update</string>
+	<string name="settings_update_not_checked">Update not checked</string>
+	<string name="settings_update_available">New version available: v%s</string>
+	<string name="settings_action_check">Check</string>
+	<string name="settings_action_install_now">Install Now</string>
+	<string name="settings_vietweaks_info">VieTweaks Info</string>
+	<string name="settings_current_version">Current Version</string>
+	<string name="settings_app_desc">An app to optimize and customize Android systems via ADB, providing useful tweaks to improve device performance.</string>
+	<string name="settings_dev_team">Development Team</string>
+	<string name="settings_contribute_translation">Contribute translation</string>
+	<string name="settings_contribute_translation_desc">Help translate VieTweaks on GitHub</string>
+	<string name="settings_translators">Translators</string>
 	<!-- Main Screen -->
-	<string name="main_not_started">VieTweaks chưa khởi động</string>
-	<string name="main_not_started_desc">Nhấn vào đây để khởi động VieTweaks.</string>
+	<string name="main_not_started">VieTweaks is not running</string>
+	<string name="main_not_started_desc">Tap here to start VieTweaks.</string>
 	<!-- Other Screens -->
-	<string name="feature_not_developed">Tính năng chưa được phát triển</string>
-	<string name="account_title">Tài khoản</string>
+	<string name="feature_not_developed">Feature not developed</string>
+	<string name="account_title">Account</string>
 	<!-- Categories -->
-	<string name="cat_screen_display">Màn hình / Hiển thị</string>
-	<string name="cat_performance">Hiệu năng</string>
+	<string name="cat_screen_display">Screen / Display</string>
+	<string name="cat_performance">Performance</string>
 	<!-- Sections -->
-	<string name="sec_screen_info">Thông tin Màn hình</string>
-	<string name="sec_resolution">Độ phân giải</string>
-	<string name="sec_density">Mật độ điểm ảnh</string>
-	<string name="sec_refresh_rate">Tần số quét</string>
+	<string name="sec_screen_info">Screen Info</string>
+	<string name="sec_resolution">Resolution</string>
+	<string name="sec_density">Density</string>
+	<string name="sec_refresh_rate">Refresh Rate</string>
 	<string name="sec_timeout">Timeout</string>
-	<string name="sec_cpu_tuning">Tinh chỉnh CPU</string>
-	<string name="sec_memory">Bộ nhớ</string>
+	<string name="sec_cpu_tuning">CPU Tuning</string>
+	<string name="sec_memory">Memory</string>
 	<!-- Cutout Options -->
 	<string-array name="cutout_options">
-		<item>Mặc định thiết bị</item>
-		<item>Cắt góc</item>
-		<item>Cắt kép</item>
-		<item>Nốt ruồi</item>
-		<item>Tai thỏ</item>
-		<item>Giọt nước</item>
+		<item>Device default</item>
+		<item>Corner cutout</item>
+		<item>Double cutout</item>
+		<item>Punch hole cutout</item>
+		<item>Tall cutout</item>
+		<item>Waterfall cutout</item>
 	</string-array>
 	<!-- Update Dialog & OTA -->
-	<string name="update_mandatory_title">Cập nhật bắt buộc (Phiên bản %1$s)</string>
-	<string name="update_release_date">Ngày phát hành: %1$s</string>
-	<string name="update_publisher">Người phát hành: %1$s</string>
-	<string name="update_hash_enabled">🛡️ Xác minh Hash (SHA-256): Bật</string>
-	<string name="update_button_download">Tải và Cập nhật</string>
-	<string name="update_error_hash_mismatch">Mã Hash không khớp! File có thể đã bị lỗi hoặc giả mạo.</string>
-	<string name="update_downloading">Đang tải bản cập nhật...</string>
-	<string name="update_checking_hash">Đang kiểm tra toàn vẹn file (Hash)...</string>
-	<string name="update_ready_install">Đã tải xong, đang mở trình cài đặt...</string>
-	<string name="update_download_error">Lỗi tải update: %1$s</string>
-    <string name="update_retrying">Mất kết nối, đang thử lại (%1$d/%2$d)…</string>
-    <string name="update_need_install_permission">Vui lòng cho phép VieTweaks cài đặt ứng dụng không xác định, sau đó bấm cập nhật lại.</string>
+	<string name="update_mandatory_title">Mandatory Update (Version %1$s)</string>
+	<string name="update_release_date">Release Date: %1$s</string>
+	<string name="update_publisher">Publisher: %1$s</string>
+	<string name="update_hash_enabled">🛡️ Hash Verification (SHA-256): Enabled</string>
+	<string name="update_button_download">Download &amp; Update</string>
+	<string name="update_error_hash_mismatch">Hash mismatch! The file may be corrupted or tampered with.</string>
+	<string name="update_downloading">Downloading update...</string>
+	<string name="update_checking_hash">Verifying file integrity (Hash)...</string>
+	<string name="update_ready_install">Download complete, opening installer...</string>
+	<string name="update_download_error">Update error: %1$s</string>
+	<string name="update_retrying">Connection lost, retrying (%1$d/%2$d)…</string>
+	<string name="update_need_install_permission">Please allow VieTweaks to install unknown apps, then tap update again.</string>
 	<!-- Security Warning -->
-	<string name="warning_title">Cảnh báo bảo mật</string>
-	<string name="warning_message">Ứng dụng sẽ can thiệp sâu vào hệ thống hiển thị của thiết bị.\n\nViệc cấu hình sai có thể dẫn đến đen màn hình, liệt cảm ứng hoặc hỏng hóc phần mềm.\n\nBạn phải tự chịu mọi rủi ro khi sử dụng các tính năng này. Chúng tôi không chịu trách nhiệm cho bất kỳ rủi ro nào xảy ra với thiết bị của bạn.</string>
-	<string name="warning_agree">Đồng ý và Chấp nhận Rủi ro</string>
-	<string name="warning_exit">Thoát</string>
-	<!-- ShellToolScreen -->
-	<string name="shell_exit_command_not_found">Lệnh không tồn tại</string>
-	<string name="shell_exit_no_exec_permission">Không có quyền thực thi</string>
-	<string name="shell_exit_stopped_ctrl_c">Đã dừng (Ctrl+C)</string>
-	<string name="shell_exit_stopped_killed">Đã dừng (killed)</string>
-	<string name="shell_exit_stopped">Đã dừng</string>
-	<string name="shell_stream_open_error">Không mở được stream session</string>
-	<string name="shell_input_placeholder_value">Nhập giá trị...</string>
-	<string name="shell_input_placeholder_command">Nhập lệnh...</string>
-	<string name="shell_empty_state">Hổng có gì ở đây hết :3</string>
+	<string name="warning_title">Security Warning</string>
+	<string name="warning_message">This application will make deep modifications to your display system.\n\nIncorrect configuration can result in a black screen, touch failure, or software damage.\n\nYou must accept all risks when using these features. We are not responsible for any damage caused to your device.</string>
+	<string name="warning_agree">I Agree &amp; Accept the Risks</string>
+	<string name="warning_exit">Exit</string>
+	<!-- ShellTool Screen -->
+	<string name="shell_exit_command_not_found">Command not found</string>
+	<string name="shell_exit_no_exec_permission">No execute permission</string>
+	<string name="shell_exit_stopped_ctrl_c">Stopped (Ctrl+C)</string>
+	<string name="shell_exit_stopped_killed">Stopped (killed)</string>
+	<string name="shell_exit_stopped">Stopped</string>
+	<string name="shell_stream_open_error">Could not open stream session</string>
+	<string name="shell_input_placeholder_value">Enter value...</string>
+	<string name="shell_input_placeholder_command">Enter command...</string>
+	<string name="shell_empty_state">Nothing here :3</string>
 	<string name="shell_running">Running</string>
 	<string name="action_stop">Stop</string>
-	<string name="action_send">Gửi</string>
-	<!-- Forum Screen -->
-	<string name="forums_developing">Tính năng đang phát triển.</string>
-	<!-- ===== Starter.kt strings — values-vi/strings.xml (Tiếng Việt) ===== -->
+	<string name="action_send">Send</string>
+	<!-- Forum Screen-->
+	<string name="forums_developing">This feature is under development.</string>
+	<!-- ===== Starter.kt strings — values/strings.xml (English) ===== -->
 	<!-- Errors (StarterViewModel) -->
-	<string name="starter_error_invalid_tcp_port">Cổng TCP không hợp lệ (1 – 65535)</string>
-	<string name="starter_error_no_wifi">Không có kết nối Wi-Fi. Kết nối Wi-Fi trước khi khởi động qua Gỡ lỗi qua Wi-Fi.</string>
-	<string name="starter_error_cannot_enable_wireless_debugging">Không thể bật Gỡ lỗi qua Wi-Fi tự động. Vào Cài đặt nhà phát triển > Gỡ lỗi qua mạng không dây và bật thủ công.</string>
-	<string name="starter_error_no_root">Thiết bị không có quyền root hoặc đã từ chối.</string>
-	<string name="starter_error_shizuku_exit">Shizuku lỗi (exit %1$d): %2$s</string>
-	<string name="starter_error_shizuku_start_failed">Không thể khởi động qua Shizuku: %1$s</string>
-	<string name="starter_error_adb_port_not_found">Không tìm được cổng ADB.</string>
+	<string name="starter_error_invalid_tcp_port">Invalid TCP port (1 – 65535)</string>
+	<string name="starter_error_no_wifi">No Wi-Fi connection. Connect to Wi-Fi before starting via Wireless debugging.</string>
+	<string name="starter_error_cannot_enable_wireless_debugging">Could not enable Wireless debugging automatically. Go to Developer options > Wireless debugging and enable it manually.</string>
+	<string name="starter_error_no_root">Device has no root access or it was denied.</string>
+	<string name="starter_error_shizuku_exit">Shizuku error (exit %1$d): %2$s</string>
+	<string name="starter_error_shizuku_start_failed">Could not start via Shizuku: %1$s</string>
+	<string name="starter_error_adb_port_not_found">Could not find an ADB port.</string>
 	<string name="starter_error_key_store">Key store error: %1$s</string>
-	<string name="starter_error_mdns_timeout">Không tìm thấy cổng ADB qua mdns (hết thời gian chờ). Kiểm tra Gỡ lỗi qua Wi-Fi đã bật trong Tùy chọn chế độ nhà phát triển, và điện thoại cùng mạng Wi-Fi với thiết bị (nếu dùng qua máy tính).</string>
-	<string name="starter_error_auth_timeout">Hết thời gian chờ xác nhận. Hãy chấp nhận yêu cầu ADB trên thiết bị rồi thử lại.</string>
-	<string name="starter_error_connect_failed">Không thể kết nối — thử lại sau.</string>
-	<string name="starter_error_pairing_required">Cần ghép nối trước khi kết nối.</string>
-	<string name="starter_error_generic">Lỗi: %1$s</string>
-	<string name="starter_error_start_timeout">Không thể khởi động: quá thời gian chờ (%1$ds).</string>
+	<string name="starter_error_mdns_timeout">Could not find an ADB port via mDNS (timed out). Check that Wireless debugging is enabled in Developer options, and that your phone and computer (if used) are on the same Wi-Fi network.</string>
+	<string name="starter_error_auth_timeout">Confirmation timed out. Please accept the ADB request on your device and try again.</string>
+	<string name="starter_error_connect_failed">Could not connect — try again later.</string>
+	<string name="starter_error_pairing_required">Pairing is required before connecting.</string>
+	<string name="starter_error_generic">Error: %1$s</string>
+	<string name="starter_error_start_timeout">Could not start: timed out (%1$ds).</string>
 	<!-- Connect hints (StarterViewModel) -->
-	<string name="starter_hint_waiting_wifi">Đang chờ Wi-Fi…</string>
-	<string name="starter_hint_enabling_wireless_debugging">Đang bật Gỡ lỗi qua Wi-Fi…</string>
-	<string name="starter_hint_enabling_fixed_tcp">Đang bật Gỡ lỗi TCP cố định…</string>
+	<string name="starter_hint_waiting_wifi">Waiting for Wi-Fi…</string>
+	<string name="starter_hint_enabling_wireless_debugging">Enabling Wireless debugging…</string>
+	<string name="starter_hint_enabling_fixed_tcp">Enabling fixed TCP debugging…</string>
 	<!-- StarterScreen -->
-	<string name="starter_dialog_error_title">Không thể khởi động!</string>
+	<string name="starter_dialog_error_title">Could not start!</string>
 	<string name="starter_dialog_ok">OK</string>
-	<string name="starter_overlay_starting">Đang khởi động...</string>
-	<string name="starter_toast_shizuku_not_running">Shizuku chưa chạy. Hãy mở app Shizuku trước.</string>
-	<string name="starter_toast_shizuku_permission_failed">Không thể xin quyền Shizuku.</string>
-	<string name="starter_toast_go_to_dev_options">Vào Tùy chọn nhà phát triển → Gỡ lỗi qua mạng không dây</string>
+	<string name="starter_overlay_starting">Starting…</string>
+	<string name="starter_toast_shizuku_not_running">Shizuku is not running. Please open the Shizuku app first.</string>
+	<string name="starter_toast_shizuku_permission_failed">Could not request Shizuku permission.</string>
+	<string name="starter_toast_go_to_dev_options">Go to Developer options → Wireless debugging</string>
 	<!-- TcpDebuggingCard -->
-	<string name="starter_tcp_title">Gỡ lỗi TCP</string>
-	<string name="starter_tcp_description">Thích hợp khi thiết bị đã mở sẵn cổng mạng qua cáp hoặc Localhost.</string>
-	<string name="starter_tcp_detected_port">Phát hiện cổng: %1$d</string>
-	<string name="starter_tcp_custom_port">Cổng tùy chỉnh</string>
-	<string name="starter_tcp_saved_port">Cổng đã lưu: %1$d</string>
-	<string name="starter_tcp_connect_port">Kết nối cổng %1$d</string>
-	<string name="starter_tcp_input_port_label">Nhập cổng (Port)</string>
-	<string name="starter_tcp_input_port_placeholder">Ví dụ: 5555</string>
-	<string name="starter_tcp_go_back">Quay lại</string>
-	<string name="starter_tcp_connect_now">Kết nối ngay</string>
+	<string name="starter_tcp_title">TCP Debugging</string>
+	<string name="starter_tcp_description">Best when the device already exposes a network port via cable or localhost.</string>
+	<string name="starter_tcp_detected_port">Detected port: %1$d</string>
+	<string name="starter_tcp_custom_port">Custom port</string>
+	<string name="starter_tcp_saved_port">Saved port: %1$d</string>
+	<string name="starter_tcp_connect_port">Connect to port %1$d</string>
+	<string name="starter_tcp_input_port_label">Enter port</string>
+	<string name="starter_tcp_input_port_placeholder">e.g. 5555</string>
+	<string name="starter_tcp_go_back">Go back</string>
+	<string name="starter_tcp_connect_now">Connect now</string>
 	<!-- WirelessDebuggingCard -->
-	<string name="starter_wireless_title">Gỡ lỗi qua Wi-Fi</string>
-	<string name="starter_wireless_description">Kết nối qua Gỡ lỗi qua Wi-Fi (Android 11+). Cần bật trong Tùy chọn nhà phát triển.</string>
-	<string name="starter_wireless_notif_permission_needed">Cần cấp quyền thông báo để hiển thị thông tin ghép nối.</string>
-	<string name="starter_wireless_settings">Cài đặt</string>
-	<string name="starter_wireless_allow">Cho phép</string>
-	<string name="starter_wireless_dev_options">Tùy chọn chế độ nhà phát triển</string>
-	<string name="starter_wireless_start">Khởi động</string>
+	<string name="starter_wireless_title">Wireless Debugging</string>
+	<string name="starter_wireless_description">Connect via Wireless Debugging (Android 11+). Must be enabled in Developer options.</string>
+	<string name="starter_wireless_notif_permission_needed">Notification permission is required to show pairing info.</string>
+	<string name="starter_wireless_settings">Settings</string>
+	<string name="starter_wireless_allow">Allow</string>
+	<string name="starter_wireless_dev_options">Dev options</string>
+	<string name="starter_wireless_start">Start</string>
 	<!-- ShizukuCard -->
-	<string name="starter_shizuku_badge_not_running">Shizuku chưa chạy.</string>
-	<string name="starter_shizuku_badge_not_granted">Chưa cấp quyền cho ứng dụng.</string>
-	<string name="starter_shizuku_badge_active">Shizuku đang hoạt động và đã cấp quyền.</string>
-	<string name="starter_shizuku_description">Khởi động qua Shizuku, không cần root hay máy tính. Cần app Shizuku đang chạy.</string>
-	<string name="starter_shizuku_grant_permission">Cấp quyền Shizuku</string>
-	<string name="starter_shizuku_start">Khởi động</string>
+	<string name="starter_shizuku_badge_not_running">Shizuku is not running.</string>
+	<string name="starter_shizuku_badge_not_granted">Permission not granted to the app.</string>
+	<string name="starter_shizuku_badge_active">Shizuku is running and permission is granted.</string>
+	<string name="starter_shizuku_description">Start via Shizuku, no root or computer needed. Requires the Shizuku app to be running.</string>
+	<string name="starter_shizuku_grant_permission">Grant Shizuku permission</string>
+	<string name="starter_shizuku_start">Start</string>
 	<!-- RootCard -->
-	<string name="starter_root_title">Quyền Root</string>
-	<string name="starter_root_description">Khởi động với quyền root.</string>
-	<string name="starter_root_available">Root khả dụng</string>
-	<string name="starter_root_unavailable">Không có quyền root</string>
-	<string name="starter_root_checking">Đang kiểm tra root...</string>
-	<string name="starter_root_start">Khởi động</string>
+	<string name="starter_root_title">Root Access</string>
+	<string name="starter_root_description">Start with root access.</string>
+	<string name="starter_root_available">Root available</string>
+	<string name="starter_root_unavailable">No root access</string>
+	<string name="starter_root_checking">Checking root…</string>
+	<string name="starter_root_start">Start</string>
 	<!-- ComputerCard -->
-	<string name="starter_computer_title">Qua máy tính</string>
-	<string name="starter_computer_description">Thực thi chuỗi lệnh qua môi trường kết nối cáp USB với adb.</string>
-	<string name="starter_computer_hide_command">Ẩn lệnh</string>
-	<string name="starter_computer_view_command">Xem lệnh</string>
-	<string name="starter_computer_copy">Sao chép</string>
-	<string name="starter_computer_copied_toast">Đã sao chép lệnh!</string>
-	<string name="starter_computer_share_command">Chia sẻ chuỗi lệnh</string>
-	<string name="starter_computer_share_chooser_title">Chia sẻ lệnh</string>    
+	<string name="starter_computer_title">Via computer</string>
+	<string name="starter_computer_description">Run the command over a USB cable connection with adb.</string>
+	<string name="starter_computer_hide_command">Hide command</string>
+	<string name="starter_computer_view_command">View command</string>
+	<string name="starter_computer_copy">Copy</string>
+	<string name="starter_computer_copied_toast">Command copied!</string>
+	<string name="starter_computer_share_command">Share command</string>
+	<string name="starter_computer_share_chooser_title">Share command</string>
     <!-- CrashActivity -->
-	<string name="crash_no_detailed_log">Không có thông tin log chi tiết.</string>
-	<string name="crash_log_copied">Đã sao chép log lỗi vào bộ nhớ tạm</string>
-	<string name="crash_restart_app">Khởi động lại ứng dụng</string>
-	<string name="crash_title">Đã xảy ra sự cố</string>
-	<string name="crash_description">VieTweaks buộc phải dừng lại do lỗi không mong muốn.</string>
-	<string name="crash_error_details">Chi tiết mã lỗi</string>
-	<string name="action_copy">Sao chép</string>
-	<string name="crash_send_report">Gửi báo cáo sự cố</string>
-	<string name="crash_report_zalo">Báo lỗi qua Zalo</string>
-	<string name="crash_report_zalo_desc">Tự động sao chép log & chuyển hướng sang Zalo</string>
-	<string name="crash_report_telegram">Báo lỗi qua Telegram</string>
-	<string name="crash_report_telegram_desc">Liên hệ Bot hỗ trợ kỹ thuật trên Telegram</string>
-	<string name="crash_report_github">Tạo Issue trên GitHub</string>
-	<string name="crash_report_github_desc">Gửi Bug Report công khai cho dự án</string>
+	<string name="crash_no_detailed_log">No detailed log information available.</string>
+	<string name="crash_log_copied">Error log copied to clipboard</string>
+	<string name="crash_restart_app">Restart app</string>
+	<string name="crash_title">A crash occurred</string>
+	<string name="crash_description">VieTweaks was forced to stop due to an unexpected error.</string>
+	<string name="crash_error_details">Error details</string>
+	<string name="action_copy">Copy</string>
+	<string name="crash_send_report">Send crash report</string>
+	<string name="crash_report_zalo">Report via Zalo</string>
+	<string name="crash_report_zalo_desc">Automatically copies the log and redirects to Zalo</string>
+	<string name="crash_report_telegram">Report via Telegram</string>
+	<string name="crash_report_telegram_desc">Contact the support bot on Telegram</string>
+	<string name="crash_report_github">Create a GitHub issue</string>
+	<string name="crash_report_github_desc">Send a public bug report for the project</string>
 </resources>
