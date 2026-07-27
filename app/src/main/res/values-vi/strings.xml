@@ -310,9 +310,9 @@
 	<string name="action_copy">Sao chép</string>
 	<string name="crash_send_report">Gửi báo cáo sự cố</string>
 	<string name="crash_report_zalo">Báo lỗi qua Zalo</string>
-	<string name="crash_report_zalo_desc">Tự động sao chép log & chuyển hướng sang Zalo</string>
+	<string name="crash_report_zalo_desc">Tự động sao chép log &amp; chuyển hướng sang Zalo</string>
 	<string name="crash_report_telegram">Báo lỗi qua Telegram</string>
-	<string name="crash_report_telegram_desc">Liên hệ Bot hỗ trợ kỹ thuật trên Telegram</string>
+	<string name="crash_report_telegram_desc">Liên hệ hỗ trợ trên Telegram</string>
 	<string name="crash_report_github">Tạo Issue trên GitHub</string>
 	<string name="crash_report_github_desc">Gửi Bug Report công khai cho dự án</string>
 </resources>
