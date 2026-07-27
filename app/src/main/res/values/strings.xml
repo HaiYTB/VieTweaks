@@ -313,7 +313,7 @@ Tap &quot;Get Key&quot;, complete the task, then come back.</string>
 	<string name="crash_report_zalo">Report via Zalo</string>
 	<string name="crash_report_zalo_desc">Automatically copies the log and redirects to Zalo</string>
 	<string name="crash_report_telegram">Report via Telegram</string>
-	<string name="crash_report_telegram_desc">Contact the support bot on Telegram</string>
+	<string name="crash_report_telegram_desc">Contact the support on Telegram</string>
 	<string name="crash_report_github">Create a GitHub issue</string>
 	<string name="crash_report_github_desc">Send a public bug report for the project</string>
 </resources>
